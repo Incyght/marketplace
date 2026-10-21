@@ -1,0 +1,16 @@
+{
+  "manifestSchema": 2,
+  "harnessVersion": "0.0.1-SNAPSHOT",
+  "baseUrl": "https://incyght-harness-dist.incyght.workers.dev/0.0.1-SNAPSHOT",
+  "auth": { "header": "X-Incyght-Token", "envVar": "INCYGHT_TOKEN" },
+  "jars": {
+    "linux-x64":   { "file": "harness-linux-x64-0.0.1-SNAPSHOT.jar",   "sha256": "6735d33c089782fc1d3e0349aa7339bef731a6513fec2940a952d8e7213f5b18" },
+    "macos-arm64": { "file": "harness-macos-arm64-0.0.1-SNAPSHOT.jar", "sha256": "d99896b5b582cf9caac25c5e514f7db07b8f15ee94e74ecf1c740d4bfb42f8eb" },
+    "windows-x64": { "file": "harness-windows-x64-0.0.1-SNAPSHOT.jar", "sha256": "ea272c2a761c9f2983e6939ea5a5dfab4b3f2157f494827f38c2b9a28b9a6475" }
+  },
+  "runtimes": {
+    "linux-x64":   { "file": "harness-runtime-linux-x64-0.0.1-SNAPSHOT.tar.gz",   "sha256": "378c61bc19d7045b4d3b170bec0b3045d2995c8c9e06331e02092fe26804c24a" },
+    "macos-arm64": { "file": "harness-runtime-macos-arm64-0.0.1-SNAPSHOT.tar.gz", "sha256": "d8363d1474858aeff45c9b911f832bff4e23bcae63784fd3a655e96062525d61" },
+    "windows-x64": { "file": "harness-runtime-windows-x64-0.0.1-SNAPSHOT.zip",     "sha256": "4853fcde80f1da7e3c3c0efe22002b7f40515fb86a7824c1e6ca909cf6b23193" }
+  }
+}
